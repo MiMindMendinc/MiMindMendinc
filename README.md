@@ -5,6 +5,16 @@
 
 > I build practical AI systems that run locally, protect user data, and can be tested: high-performance RoPE/attention kernels, safety gateways, and offline-capable AI tools.
 
+## Start here
+
+| Project | Signal | Why it matters |
+| --- | --- | --- |
+| [lyle-rope-kernel-js](https://github.com/MiMindMendinc/lyle-rope-kernel-js) | JavaScript inference kernel | Zero-dependency, in-place RoPE with bit-exact Llama parity and reproducible benchmarks |
+| [DominusUltra](https://github.com/MiMindMendinc/DominusUltra) | Triton/GPU kernel work | Fused RoPE + causal attention, correctness gated against PyTorch reference, measured on Blackwell |
+| [TrustLayer](https://github.com/MiMindMendinc/TrustLayer) | AI safety infrastructure | PII redaction, prompt-injection checks, OpenAI-compatible safety gateway, deterministic audit logging |
+| [mindmend-guardian](https://github.com/MiMindMendinc/mindmend-guardian) | Local-first youth safety | Privacy-first safety prototype with human escalation boundaries |
+| [annie-local](https://github.com/MiMindMendinc/annie-local) | Offline AI product | FastAPI + Ollama local companion with private JSONL memory and reactive UI |
+
 ## Hiring signal
 
 I am strongest where **systems engineering meets applied AI**:
