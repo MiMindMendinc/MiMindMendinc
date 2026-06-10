@@ -1,37 +1,25 @@
-## Lyle Perrien
+# Lyle Perrien
 
-**Founder & AI Engineer** | Privacy-First, High-Performance Offline AI  
-*Michigan MindMend Inc. — Owosso, Michigan*
+**Self-Taught AI Kernel & Safety Engineer** — Privacy-First, Offline-Capable AI
+*Founder, Michigan MindMend Inc. (501(c)(3)) · Michigan*
 
----
+> Building AI that runs offline, respects privacy, and holds up under audit — high-performance inference kernels and safety infrastructure for youth mental health.
 
-> Building AI that works offline, respects privacy, and delivers real human impact — especially for youth mental health and safety.
+### Verified work
 
-### 🚀 Standout Achievements
-- **15× faster Triton RoPE + PagedAttention** kernels (bit-exact, production-grade) — "The Perrien Effect"
-- **140M+ token pairs/sec** pure JavaScript RoPE kernel (zero deps, Llama-correct)
-- **25M+ tokens/sec** fused RoPE attention on NVIDIA GPUs (DominusUltra)
-- Multiple privacy-first offline AI systems for mental health, family safety, and edge devices
+- **Triton fused RoPE + causal attention** — up to **7× over the PyTorch reference** at seq_len 2048 (~1.8 TB/s effective bandwidth, RTX PRO 6000 Blackwell); correctness via `allclose`, reproducible harness in-repo → [DominusUltra](https://github.com/MiMindMendinc/DominusUltra)
+- **Pure-JS RoPE kernel** — zero deps, bit-exact Llama parity, in-place zero-allocation hot path; ~140M pairs/sec on desktop hardware (~30–40M on a shared cloud vCPU — harness included, run it yourself) → [lyle-rope-kernel-js](https://github.com/MiMindMendinc/lyle-rope-kernel-js)
+- **Optimization PR submitted to xai-org/grok-1** — fused RoPE path ([PR #434](https://github.com/xai-org/grok-1/pull/434))
+- **LLM safety gateway** — PII redaction, prompt-injection detection, deterministic audit logging for OpenAI-compatible endpoints → [TrustLayer](https://github.com/MiMindMendinc/TrustLayer)
+- **Offline youth-safety AI** — local-first risk detection, deterministic crisis routing, edge deployment → [mindmend-guardian](https://github.com/MiMindMendinc/mindmend-guardian) · [OpenClaw Empathy Anchor](https://github.com/MiMindMendinc/OpenClaw-Empathy-Anchor-MindMend-OpenClaw-)
+- **Local voice AI companion** — FastAPI + Ollama, fully offline, private JSONL memory → [annie-local](https://github.com/MiMindMendinc/annie-local)
 
-### 🛠️ Core Expertise
-**High-Performance AI** • Custom kernels (Triton) • Local/Edge AI (Ollama, LangGraph, CrewAI) • Privacy Engineering (redaction, grounding, zero-log) • Full-stack offline apps
+### Core expertise
 
-**Tech**: Python • Triton • JavaScript/TypeScript • Docker • GitHub Actions
+GPU kernels (Triton · CUDA · WebGPU) · LLM inference optimization · Local/edge AI (Ollama, llama.cpp, Raspberry Pi, rugged hardware) · AI safety engineering (audit chains, deterministic guardrails, threat modeling) · Rust & Python systems
 
-### 🌟 Featured Projects
-- [The Perrien Effect](https://github.com/MiMindMendinc/-perrien-effect-) — 15× faster private mental health AI kernels
-- [lyle-rope-kernel-js](https://github.com/MiMindMendinc/lyle-rope-kernel-js) — Best pure-JS RoPE implementation
-- [DominusUltra](https://github.com/MiMindMendinc/DominusUltra) — Extreme-performance Triton attention
-- [annie-local](https://github.com/MiMindMendinc/annie-local) — Beautiful local voice AI companion
-- [mindmend-guardian](https://github.com/MiMindMendinc/mindmend-guardian) — AI youth safety & protection system
+### Open to
 
-*Full portfolio: [github.com/MiMindMendinc](https://github.com/MiMindMendinc?tab=repositories)*
+Remote roles in **kernel engineering**, **inference optimization**, **AI safety engineering**, and **edge/local AI**.
 
-### 💼 Open To
-AI Engineering roles in **efficient inference**, **custom kernels**, **local/edge AI**, or **privacy-preserving systems**.
-
-**Let's build trustworthy AI that actually helps people.**
-
----
-
-📍 Michigan  •  📧 michiganmindmendinc@proton.me  •  🔗 [X @p_perrien](https://x.com/p_perrien)
+📧 michiganmindmendinc@proton.me · 🔗 [@p_perrien](https://x.com/p_perrien)
