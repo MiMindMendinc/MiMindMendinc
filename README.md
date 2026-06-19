@@ -1,44 +1,46 @@
-# Lyle Perrien
+# Lyle Perrien II
 
-**Self-Taught AI Systems Engineer** — LLM Inference · AI Safety · Offline/Edge AI
-*Founder, Michigan MindMend Inc. (501(c)(3)) · Michigan · Open to remote AI engineering roles*
+**AI Systems Engineer · LLM Inference · AI Safety · Local/Edge AI**
 
-> I build practical AI systems that run locally, protect user data, and can be tested: high-performance RoPE/attention kernels, safety gateways, and offline-capable AI tools.
+I build practical AI systems that run locally, protect user data, and come with visible tests, benchmarks, or demos. My work spans Triton attention kernels, JavaScript inference primitives, OpenAI-compatible safety middleware, and offline AI applications.
 
-## Start here
+**Open to remote engineering roles and contract work.**
 
-| Project | Signal | Why it matters |
+## Selected work
+
+| Project | Engineering signal | Evidence |
 | --- | --- | --- |
-| [lyle-rope-kernel-js](https://github.com/MiMindMendinc/lyle-rope-kernel-js) | JavaScript inference kernel | Zero-dependency, in-place RoPE with bit-exact Llama parity and reproducible benchmarks |
-| [DominusUltra](https://github.com/MiMindMendinc/DominusUltra) | Triton/GPU kernel work | Fused RoPE + causal attention, correctness gated against PyTorch reference, measured on Blackwell |
-| [TrustLayer](https://github.com/MiMindMendinc/TrustLayer) | AI safety infrastructure | PII redaction, prompt-injection checks, OpenAI-compatible safety gateway, deterministic audit logging |
-| [mindmend-guardian](https://github.com/MiMindMendinc/mindmend-guardian) | Local-first youth safety | Privacy-first safety prototype with human escalation boundaries |
-| [annie-local](https://github.com/MiMindMendinc/annie-local) | Offline AI product | FastAPI + Ollama local companion with private JSONL memory and reactive UI |
+| [DominusUltra](https://github.com/MiMindMendinc/DominusUltra) | Triton causal attention with fused RoPE, GQA/MQA, and KV-cache decode paths | PyTorch correctness reference, CUDA tests, reproducible benchmark harness, recorded-demo workflow |
+| [lyle-rope-kernel-js](https://github.com/MiMindMendinc/lyle-rope-kernel-js) | Zero-dependency, in-place RoPE kernel for JavaScript inference | Llama-reference parity tests, KV-cache continuation coverage, benchmark, browser demo |
+| [TrustLayer](https://github.com/MiMindMendinc/TrustLayer) | OpenAI-compatible LLM safety and privacy gateway | PII redaction, prompt-injection rules, deterministic audit logs, Node tests and CI |
+| [annie-local](https://github.com/MiMindMendinc/annie-local) | Fully local voice companion built with FastAPI and Ollama | Installable Python package, private JSONL memory, tests, CI, privacy and threat-model docs |
+| [localcowork-ai](https://github.com/MiMindMendinc/localcowork-ai) | Local multi-agent CLI and Ollama orchestration | Typed Python package, tests, CI, CLI and Python API examples |
+| [mindmend-guardian](https://github.com/MiMindMendinc/mindmend-guardian) | Privacy-first youth-safety prototype with human escalation boundaries | Python package structure, tests, CI, explicit safety limits |
 
-## Hiring signal
+## Systems and open-source work
 
-I am strongest where **systems engineering meets applied AI**:
-
-- optimizing inference paths and positional-encoding kernels
-- building local-first AI apps around Ollama, llama.cpp, FastAPI, and edge hardware
-- designing deterministic safety layers, audit logs, and privacy controls
-- turning rough prototypes into testable, documented portfolio artifacts
-
-## Verified work
-
-- **Triton fused RoPE + causal attention** — up to **7× over the PyTorch reference** at seq_len 2048 (~1.8 TB/s effective bandwidth, RTX PRO 6000 Blackwell); correctness via `allclose`, reproducible harness in-repo → [DominusUltra](https://github.com/MiMindMendinc/DominusUltra)
-- **Pure-JS RoPE kernel** — zero deps, bit-exact Llama parity, in-place zero-allocation hot path; ~140M pairs/sec on desktop hardware (~30–40M on a shared cloud vCPU — harness included, run it yourself) → [lyle-rope-kernel-js](https://github.com/MiMindMendinc/lyle-rope-kernel-js)
-- **Optimization PR submitted to xai-org/grok-1** — fused RoPE path ([PR #434](https://github.com/xai-org/grok-1/pull/434))
-- **LLM safety gateway** — PII redaction, prompt-injection detection, deterministic audit logging for OpenAI-compatible endpoints → [TrustLayer](https://github.com/MiMindMendinc/TrustLayer)
-- **Offline youth-safety AI** — local-first risk detection, deterministic crisis routing, edge deployment → [mindmend-guardian](https://github.com/MiMindMendinc/mindmend-guardian) · [OpenClaw Empathy Anchor](https://github.com/MiMindMendinc/OpenClaw-Empathy-Anchor-MindMend-OpenClaw-)
-- **Local voice AI companion** — FastAPI + Ollama, fully offline, private JSONL memory → [annie-local](https://github.com/MiMindMendinc/annie-local)
+- Submitted a fused-RoPE optimization to the upstream [xai-org/grok-1 project (PR #434)](https://github.com/xai-org/grok-1/pull/434).
+- Built reproducible kernel benchmarks with correctness checks before timing.
+- Built local-first AI applications around Ollama, FastAPI, Node.js, browser APIs, and edge-device constraints.
+- Designed safety middleware with inspectable policies, data minimization, and honest prototype boundaries.
+- Maintain a [Grok-1 research fork](https://github.com/MiMindMendinc/grok-1) for inference and RoPE experiments; it is clearly presented as a fork, not original ownership of Grok-1.
 
 ## Core stack
 
-Triton · CUDA concepts · JavaScript/TypeScript · Python · Rust · FastAPI · Node.js · Ollama · llama.cpp · Raspberry Pi / edge hardware · GitHub Actions · privacy and safety engineering
+`Python` · `JavaScript/TypeScript` · `Triton` · `PyTorch` · `JAX` · `FastAPI` · `Node.js` · `Rust` · `Docker` · `GitHub Actions` · `Ollama` · `local/edge AI`
 
-## Open to
+## What I care about
 
-Remote roles in **LLM inference optimization**, **AI safety engineering**, **kernel/performance engineering**, and **local/edge AI systems**.
+- Correctness before benchmark claims
+- Privacy by default
+- Local and offline operation where practical
+- Human control in safety-sensitive systems
+- Clear documentation that separates working code from roadmap ideas
 
-📧 michiganmindmendinc@proton.me · 🔗 [@p_perrien](https://x.com/p_perrien)
+## Contact
+
+**Lyle Perrien II**  
+Founder, Michigan MindMend Inc. · Owosso, Michigan  
+[michiganmindmendinc@proton.me](mailto:michiganmindmendinc@proton.me) · [@p_perrien](https://x.com/p_perrien)
+
+Remote roles: **LLM inference**, **AI safety**, **applied AI systems**, and **local/edge AI**.
