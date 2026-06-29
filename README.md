@@ -28,7 +28,7 @@ I am especially interested in remote roles and contract work involving **LLM sys
 ## Open-source and research signal
 
 - Submitted a fused-RoPE optimization to the upstream [xai-org/grok-1 project, PR #434](https://github.com/xai-org/grok-1/pull/434).
-- Maintain a [Grok-1 research fork](https://github.com/MiMindMendinc/grok-1) for inference and RoPE experiments; this is clearly presented as a research fork, not original ownership of Grok-1.
+- Maintain a [research fork of Grok-1](https://github.com/MiMindMendinc/grok-1) for inference and RoPE experiments (a fork for experimentation, not original authorship of Grok-1).
 - Build benchmarks that separate **correctness checks** from **timing claims**.
 - Prefer visible tests, reproducible setup, and honest prototype boundaries over inflated demos.
 - Design AI tooling around the principle: **AI assists; humans decide.**
