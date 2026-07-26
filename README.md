@@ -18,12 +18,12 @@ I am especially interested in remote roles and contract work involving **LLM sys
 
 | Project | What it demonstrates | Evidence / signal |
 | --- | --- | --- |
-| [DominusUltra](https://github.com/MiMindMendinc/DominusUltra) | Triton causal attention work with fused RoPE, GQA/MQA direction, and KV-cache decode experiments | PyTorch correctness references, CUDA-oriented tests, benchmark harnesses, demo workflow |
 | [lyle-rope-kernel-js](https://github.com/MiMindMendinc/lyle-rope-kernel-js) | Zero-dependency JavaScript RoPE kernel for browser/local inference primitives | Llama-reference parity tests, KV-cache continuation coverage, benchmark/demo path |
+| [DominusUltra](https://github.com/MiMindMendinc/DominusUltra) | Triton causal attention work with fused RoPE, GQA/MQA direction, and KV-cache decode experiments | PyTorch correctness references, CUDA-oriented tests, benchmark harnesses, demo workflow |
 | [TrustLayer](https://github.com/MiMindMendinc/TrustLayer) | OpenAI-compatible LLM safety and privacy gateway | PII redaction, prompt-injection rules, deterministic audit logs, Node tests and CI |
-| [annie-local](https://github.com/MiMindMendinc/annie-local) | Local voice companion architecture using FastAPI/Ollama-style local AI patterns | Installable Python package direction, private JSONL memory, tests, CI, privacy/threat-model docs |
-| [localcowork-ai](https://github.com/MiMindMendinc/localcowork-ai) | Local multi-agent CLI and Ollama orchestration | Typed Python package direction, tests, CI, CLI/Python API examples |
 | [mindmend-guardian](https://github.com/MiMindMendinc/mindmend-guardian) | Privacy-first youth-safety prototype with explicit human escalation boundaries | Python package structure, tests, CI, non-clinical safety limits |
+| [MindMend Empathy Anchor](https://github.com/MiMindMendinc/OpenClaw-Empathy-Anchor-MindMend-OpenClaw-) | Local-first safety signal detector with supportive routing for youth wellness | Deterministic rule scanner, Docker non-root image, eval harness with published results, threat model docs |
+| [annie-local](https://github.com/MiMindMendinc/annie-local) | Local voice companion architecture using FastAPI/Ollama-style local AI patterns | Installable Python package direction, private JSONL memory, tests, CI, privacy/threat-model docs |
 
 ## Open-source and research signal
 
