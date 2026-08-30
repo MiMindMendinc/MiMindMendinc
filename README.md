@@ -1,11 +1,11 @@
 # Lyle Perrien II
 
 **ML systems engineer** · Triton / CUDA kernels · local inference · AI safety  
-Michigan · Open to remote
+Open to remote roles
 
 I write GPU kernels and local AI systems, then prove them with tests. Correctness first. No speed claim without a committed, metadata-complete report.
 
-[Email](mailto:michiganmindmendinc@proton.me) · [LinkedIn](https://www.linkedin.com/in/lyle-perrien-b7918062) · [GitHub](https://github.com/MiMindMendinc)
+[LinkedIn](https://www.linkedin.com/in/lyle-perrien-b7918062) · [GitHub](https://github.com/MiMindMendinc)
 
 ## Public work
 
