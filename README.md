@@ -7,15 +7,13 @@ I write GPU kernels and local AI systems, then prove them with tests. Correctnes
 
 [Email](mailto:michiganmindmendinc@proton.me) · [LinkedIn](https://www.linkedin.com/in/lyle-perrien-b7918062) · [GitHub](https://github.com/MiMindMendinc)
 
-## Start here
+## Public work
 
 **[DominusUltra](https://github.com/MiMindMendinc/DominusUltra)** — Triton fused-RoPE causal attention (prefill/decode, GQA/MQA). 142 CUDA cases, CI, correctness-gated runner. Research kernel, not a FlashAttention replacement.
 
 **[lyle-rope-kernel-js](https://github.com/MiMindMendinc/lyle-rope-kernel-js)** — zero-dependency JS RoPE. Tests and committed Node 22 numbers.
 
 **[annie-local](https://github.com/MiMindMendinc/annie-local)** — local-first assistant with inspectable memory. Beta. Not a clinical product.
-
-**[mindmend-guardian](https://github.com/MiMindMendinc/mindmend-guardian)** — youth-safety prototype with explicit human escalation. Not a clinical product.
 
 ## Upstream
 
