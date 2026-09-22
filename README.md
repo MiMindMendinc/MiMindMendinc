@@ -1,39 +1,47 @@
 # Lyle Perrien II
 
-**ML systems engineer** focused on GPU kernels, local inference, AI safety, and proof-driven engineering.
+**Software engineer** focused on testing, debugging, local AI systems, and reproducible delivery.
 
-I build systems that are meant to be inspected, reproduced, and challenged. My public work emphasizes correctness gates, explicit limitations, local-first design, and benchmark claims backed by committed evidence.
+I build systems that can be inspected and tested: FastAPI applications, local model integrations, JavaScript numerical kernels, and GPU research tooling. My public work pairs implementation with verification commands, CI evidence, and explicit limits.
 
 [LinkedIn](https://www.linkedin.com/in/lyle-perrien-b7918062) · [GitHub](https://github.com/MiMindMendinc)
 
 ## Featured work
 
-### [DominusUltra](https://github.com/MiMindMendinc/DominusUltra)
-Triton fused-RoPE causal-attention research kernel covering prefill, decode, GQA/MQA, correctness-gated CUDA evidence, and reproducible benchmark tooling.
-
 ### [Annie Local](https://github.com/MiMindMendinc/annie-local)
-Local-first AI assistant with inspectable memory, FastAPI, Ollama integration, explicit model-routing state, deterministic safety canaries, and hardened local deployment defaults.
+
+Local-first AI assistant with FastAPI, Ollama integration, inspectable memory, model-repair flows, and guarded streaming.
+
+- [Verified CI baseline — 12 September 2026](https://github.com/MiMindMendinc/annie-local/actions/runs/34663657989): 329 Python tests passed on each of Python 3.11/3.12, plus 31 JavaScript tests. Repeated matrix runs are not counted as additional unique tests.
+- Local-first beta. Physical-device, accessibility, and successful real-model browser acceptance remain open; see [release readiness](https://github.com/MiMindMendinc/annie-local/blob/main/docs/RELEASE_READINESS.md).
 
 ### [lyle-rope-kernel-js](https://github.com/MiMindMendinc/lyle-rope-kernel-js)
-Zero-dependency JavaScript RoPE implementation with deterministic reference parity, cached hot paths, Node 20/22 CI, and reproducible performance markers.
+
+Zero-runtime-dependency JavaScript RoPE implementation with deterministic scalar-reference parity, cached plans, input validation, and numerical-invariant checks.
+
+- [Verified CI baseline — 30 August 2026](https://github.com/MiMindMendinc/lyle-rope-kernel-js/actions/runs/33336990492): 17 tests passed on each of Node 20 and 22, with no skips.
+- Benchmarks are environment-specific markers; WebGPU remains a preview fallback.
+
+### [DominusUltra](https://github.com/MiMindMendinc/DominusUltra)
+
+Triton fused-RoPE causal-attention research code and correctness-gated benchmark tooling for prefill, decode, and GQA/MQA.
+
+- [Verified CPU CI baseline — 6 September 2026](https://github.com/MiMindMendinc/DominusUltra/actions/runs/34014539891): 13 tests passed and 142 CUDA cases were skipped on each of Python 3.10/3.11; the runner also reports 3 subtests passed.
+- GPU validation and reproducible fused-attention performance evidence remain pending. Skipped CUDA cases are not GPU passes.
 
 ## Upstream engineering
 
-[xai-org/grok-1#434](https://github.com/xai-org/grok-1/pull/434) — fused Triton RoPE work for Grok-1. Earlier H100 timing claims were withdrawn after a kernel correction; current public claims are intentionally limited to evidence that can be reproduced.
+[xai-org/grok-1#434](https://github.com/xai-org/grok-1/pull/434) — fused Triton RoPE work for Grok-1. Earlier H100 timing claims were withdrawn after a kernel correction; current public claims are limited to reproducible evidence. Upstream project authorship remains with its maintainers.
 
 ## Engineering principles
 
-- **Correctness before speed** — optimization claims come after numerical gates.
-- **Evidence over hype** — benchmark context, source hashes, and limitations belong beside the result.
-- **Local-first where practical** — private workloads should not require cloud exposure by default.
-- **AI assists; humans decide** — safety boundaries and operator control should remain visible.
+- **Correctness before speed** — optimization claims follow numerical checks.
+- **Evidence beside the result** — record the tested commit, environment, commands, and limitations.
+- **Local-first where practical** — keep private workloads local by default and make remote routes explicit.
+- **AI assists; humans decide** — keep safety boundaries and operator control visible.
 
 ## Stack
 
-`Python` · `Triton` · `CUDA` · `PyTorch` · `FastAPI` · `Docker` · `GitHub Actions` · `JavaScript` · `Node.js` · `Ollama`
+`Python` · `FastAPI` · `pytest` · `GitHub Actions` · `JavaScript` · `Node.js` · `Docker` · `Ollama` · `Triton` · `CUDA` · `PyTorch`
 
-## Current focus
-
-GPU kernel engineering · inference optimization · agent infrastructure · AI safety tooling · local / edge AI
-
-**Open to remote engineering opportunities.**
+**Open to remote software engineering opportunities**, especially testing, debugging, local AI applications, and reliable delivery.
