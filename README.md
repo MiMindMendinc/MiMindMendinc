@@ -19,8 +19,9 @@ Local-first AI assistant with FastAPI, Ollama integration, inspectable memory, m
 
 Zero-runtime-dependency JavaScript RoPE implementation with deterministic scalar-reference parity, cached plans, input validation, and numerical-invariant checks.
 
-- [Verified CI baseline — 30 August 2026](https://github.com/MiMindMendinc/lyle-rope-kernel-js/actions/runs/33336990492): 17 tests passed on each of Node 20 and 22, with no skips.
-- Benchmarks are environment-specific markers; WebGPU remains a preview fallback.
+- Package `1.1.0-rc.1`; `engines.node` **`>=22`**. CI matrix: Ubuntu/Windows × Node **22 and 24**.
+- [Verified CI baseline — 5 October 2026](https://github.com/MiMindMendinc/lyle-rope-kernel-js/actions/runs/37269375603): green PR CI on head `7bd49e9` across the Node 22/24 matrix. Tip of `main` merge `f9b7051` used `[skip ci]` after that green PR (no fresh push CI on the merge tip). No npm publication claimed.
+- Benchmarks are environment-specific markers via the evidence harness; WebGPU remains a CPU fallback, not GPU acceleration.
 
 ### [DominusUltra](https://github.com/MiMindMendinc/DominusUltra)
 
