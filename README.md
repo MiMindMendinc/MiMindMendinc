@@ -1,8 +1,8 @@
 # Lyle Perrien II
 
-**Software engineer** focused on testing, debugging, local AI systems, and reproducible delivery.
+**Developer with a compliance-operations background: I build tested, local-first tools and document what they can and can't do.**
 
-I build systems that can be inspected and tested: FastAPI applications, local model integrations, JavaScript numerical kernels, and GPU research tooling. Public work pairs implementation with verification commands, CI evidence, and explicit limits.
+I come from compliance operations and security supervision, and I hold Firefighter I & II, so I work the same way in software: follow the procedure, check the result, write down the limits. I founded Michigan MindMend Inc., a nonprofit building privacy-first, local AI tools, and my main repos run CI on every change, ship one-command verify steps, and label anything experimental. I'm open to remote IT support, junior analyst, and compliance-operations roles.
 
 [LinkedIn](https://www.linkedin.com/in/lyle-perrien-b7918062) · [GitHub](https://github.com/MiMindMendinc)
 
@@ -10,8 +10,8 @@ I build systems that can be inspected and tested: FastAPI applications, local mo
 
 | | |
 | --- | --- |
-| **Who** | Lyle Perrien II — software engineer; open to remote roles in testing, debugging, local AI, and reliable delivery |
-| **What** | Inspectable local AI apps, experimental JS numerical kernels, and research CUDA/Triton attention tooling |
+| **Who** | Lyle Perrien II — developer with a compliance-operations background; open to remote IT support, junior analyst, and compliance-operations roles |
+| **What** | Inspectable local AI apps, experimental JS numerical kernels, and research Triton (GPU) attention tooling |
 | **Usable today** | Clone-and-run checkouts with documented install/verify commands (see Featured work). Nothing here is claimed as a clinical product or a production attention library |
 | **Install** | Follow each repo README (`npm ci` / `pip install -e ".[dev]"`). Prefer Node **≥22** for the JS RoPE package; Python 3.10+ for DominusUltra CPU CI |
 | **Evidence** | CI run URLs and committed gated reports beside the claims — not screenshots alone |
@@ -27,8 +27,9 @@ Ordered for public inspectability: clone-friendly experimental package first, th
 Zero-runtime-dependency JavaScript RoPE implementation with deterministic scalar-reference parity, cached plans, input validation, and numerical-invariant checks.
 
 - Package `1.1.0-rc.1`; `engines.node` **`>=22`**. CI matrix: Ubuntu/Windows × Node **22 and 24**.
-- [CI on `main` — 8 October 2026](https://github.com/MiMindMendinc/lyle-rope-kernel-js/actions/runs/37728965226): green on `main` commit `4c92b89` across Ubuntu/Windows × Node 22/24. Not yet published to npm.
-- Benchmarks are environment-specific markers via the evidence harness; WebGPU remains a CPU fallback, not GPU acceleration. `startPos` supplies an absolute position — this package does **not** implement a KV cache.
+- [Live browser playground](https://mimindmendinc.github.io/lyle-rope-kernel-js/playground.html): runs the same kernel file in the page, checks the result against the scalar reference, and times it on your device.
+- [CI on `main` — 8 October 2026](https://github.com/MiMindMendinc/lyle-rope-kernel-js/actions/runs/37732478233): green on `main` commit `3f750cd` across Ubuntu/Windows × Node 22/24. Not yet published to npm.
+- `npm run bench` reproduces the [benchmark table in the README](https://github.com/MiMindMendinc/lyle-rope-kernel-js#benchmarks-one-machine-indicative-only); each case is reference-checked before it is timed, and results are one-machine indicative numbers, not cross-hardware claims. WebGPU remains a CPU fallback, not GPU acceleration. `startPos` supplies an absolute position — this package does **not** implement a KV cache.
 
 ### [DominusUltra](https://github.com/MiMindMendinc/DominusUltra)
 
@@ -50,8 +51,8 @@ Local-first AI assistant with FastAPI, Ollama integration, inspectable memory, m
 Inspectable, explicitly non-clinical prototypes:
 
 - [TrustLayer](https://github.com/MiMindMendinc/TrustLayer) — OpenAI-compatible LLM safety gateway prototype (PII redaction, jailbreak rules, audit logs).
-- [mindmend-guardian](https://github.com/MiMindMendinc/mindmend-guardian) — youth-safety prototype with explicit human escalation; screenshots still pending.
-- [OpenClaw Empathy Anchor](https://github.com/MiMindMendinc/OpenClaw-Empathy-Anchor-MindMend-OpenClaw-) — privacy-first local journal coach prototype; research/nonprofit demo.
+- [mindmend-guardian](https://github.com/MiMindMendinc/mindmend-guardian) — youth-safety prototype with explicit human escalation; local CLI and Streamlit demos run on synthetic sample messages only.
+- [MindMend Empathy Anchor](https://github.com/MiMindMendinc/OpenClaw-Empathy-Anchor-MindMend-OpenClaw-) — local-first safety-signal demonstrator: deterministic rules flag predefined safety signals for human review; technical demonstration, not clinical software or an emergency service.
 
 ## Upstream engineering
 
@@ -66,6 +67,6 @@ Inspectable, explicitly non-clinical prototypes:
 
 ## Stack
 
-`Python` · `FastAPI` · `pytest` · `GitHub Actions` · `JavaScript` · `Node.js` · `Docker` · `Ollama` · `Triton` · `CUDA` · `PyTorch`
+`Python` · `FastAPI` · `pytest` · `GitHub Actions` · `JavaScript` · `Node.js` · `Docker` · `Ollama` · `Triton (GPU)` · `PyTorch`
 
-**Open to remote software engineering opportunities**, especially testing, debugging, local AI applications, and reliable delivery.
+**Open to remote IT support, junior analyst, and compliance-operations roles**, plus junior software roles in testing, debugging, and local AI applications.
