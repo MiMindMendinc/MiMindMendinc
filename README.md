@@ -27,7 +27,7 @@ Ordered for public inspectability: clone-friendly experimental package first, th
 Zero-runtime-dependency JavaScript RoPE implementation with deterministic scalar-reference parity, cached plans, input validation, and numerical-invariant checks.
 
 - Package `1.1.0-rc.1`; `engines.node` **`>=22`**. CI matrix: Ubuntu/Windows × Node **22 and 24**.
-- [Verified CI baseline — 5 October 2026](https://github.com/MiMindMendinc/lyle-rope-kernel-js/actions/runs/37269375603): green PR CI on head `7bd49e9` across the Node 22/24 matrix. Tip of `main` merge `f9b7051` used `[skip ci]` after that green PR (no fresh push CI on the merge tip). No npm publication claimed.
+- [CI on `main` — 8 October 2026](https://github.com/MiMindMendinc/lyle-rope-kernel-js/actions/runs/37728965226): green on `main` commit `4c92b89` across Ubuntu/Windows × Node 22/24. Not yet published to npm.
 - Benchmarks are environment-specific markers via the evidence harness; WebGPU remains a CPU fallback, not GPU acceleration. `startPos` supplies an absolute position — this package does **not** implement a KV cache.
 
 ### [DominusUltra](https://github.com/MiMindMendinc/DominusUltra)
@@ -47,7 +47,7 @@ Local-first AI assistant with FastAPI, Ollama integration, inspectable memory, m
 
 ## Other public prototypes
 
-Inspectable, explicitly non-clinical prototypes (pin recommendations live in portfolio handoff notes):
+Inspectable, explicitly non-clinical prototypes:
 
 - [TrustLayer](https://github.com/MiMindMendinc/TrustLayer) — OpenAI-compatible LLM safety gateway prototype (PII redaction, jailbreak rules, audit logs).
 - [mindmend-guardian](https://github.com/MiMindMendinc/mindmend-guardian) — youth-safety prototype with explicit human escalation; screenshots still pending.
