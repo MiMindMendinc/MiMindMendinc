@@ -6,6 +6,10 @@ Michigan MindMend Inc. is a 501(c)(3) nonprofit in rural Michigan building priva
 
 **Open to remote W-2 roles in compliance, operations, and junior analyst / IT.**
 
+**Why it's relevant:** [TrustLayer](https://github.com/MiMindMendinc/TrustLayer) and [MindMend Guardian](https://github.com/MiMindMendinc/mindmend-guardian) are compliance-style controls in code — audit logs that record SHA-256 hashes instead of raw text, PII redaction and data minimization, and written risk limits (threat models and explicit "what this does not claim" sections).
+
+[LinkedIn](https://www.linkedin.com/in/lyle-perrien-b7918062) · [GitHub](https://github.com/MiMindMendinc) · [X @p_perrien](https://x.com/p_perrien)
+
 ## Focus areas
 
 - **Local / offline AI** — assistants and tools that keep private data on the device by default.
@@ -48,6 +52,6 @@ Michigan MindMend Inc. is a 501(c)(3) nonprofit in rural Michigan building priva
 
 ## Contact
 
-[GitHub](https://github.com/MiMindMendinc) · [X @p_perrien](https://x.com/p_perrien)
+[LinkedIn](https://www.linkedin.com/in/lyle-perrien-b7918062) · [GitHub](https://github.com/MiMindMendinc) · [X @p_perrien](https://x.com/p_perrien)
 
 Nothing here is claimed as a clinical product. If someone may be in immediate danger, contact emergency services; in the United States, call or text **988**.
