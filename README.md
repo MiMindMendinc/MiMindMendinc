@@ -2,7 +2,7 @@
 
 **Founder, Michigan MindMend Inc. — building privacy-first, offline AI safety tools, and documenting exactly what they can and can't do.**
 
-Michigan MindMend Inc. is a 501(c)(3) nonprofit in rural Michigan building privacy-first, offline AI for youth and family mental health. I come from compliance operations and security supervision, and I hold Firefighter I & II, so I work the same way in software: follow the procedure, check the result, write down the limits. My main repos run CI on every change, ship one-command verify steps, and label anything experimental.
+Michigan MindMend Inc. is a Michigan 501(c)(3) nonprofit building privacy-first, offline AI for youth and family mental health. I come from compliance operations and security supervision, and I hold Firefighter I & II, so I work the same way in software: follow the procedure, check the result, write down the limits. My main repos run CI on every change, ship one-command verify steps, and label anything experimental.
 
 **Open to remote W-2 roles in compliance, operations, and junior analyst / IT.**
 
