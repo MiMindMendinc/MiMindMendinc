@@ -13,6 +13,7 @@ Michigan MindMend Inc. is a 501(c)(3) nonprofit in rural Michigan building priva
 ## Focus areas
 
 - **Local / offline AI** — assistants and tools that keep private data on the device by default.
+- **Local speech** — offline text-to-speech that runs on your machine ([VoiceForge](https://github.com/MiMindMendinc/VoiceForge)).
 - **AI safety and fail-closed guardrails** — deterministic rules, human-in-the-loop escalation, and audit trails that store hashes instead of raw text.
 - **Compliance and operations** — written procedures, evidence beside every claim, and honest scope statements.
 - **Edge AI** — small, inspectable runtimes and kernels for constrained hardware.
@@ -21,6 +22,7 @@ Michigan MindMend Inc. is a 501(c)(3) nonprofit in rural Michigan building priva
 
 | Project | What it is |
 | --- | --- |
+| [VoiceForge](https://github.com/MiMindMendinc/VoiceForge) | Local Kokoro text-to-speech server with a FastAPI API, CLI (`voiceforge serve`), Docker image, and an OpenAI-compatible speech endpoint. MIT licensed. Latest release: [v1.2.0](https://github.com/MiMindMendinc/VoiceForge/releases/tag/v1.2.0). |
 | [TrustLayer](https://github.com/MiMindMendinc/TrustLayer) | Lightweight LLM safety and privacy gateway for OpenAI-compatible apps: PII redaction, prompt-injection and restricted-topic blocking, and JSONL audit logs with SHA-256 input hashes. Prototype. |
 | [MindMend Guardian](https://github.com/MiMindMendinc/mindmend-guardian) | Privacy-first, local-first AI safety prototype for youth and family wellness, with risk-signal detection and explicit human review; demos run on synthetic samples only. Not a clinical product. |
 | [MindMend Empathy Anchor](https://github.com/MiMindMendinc/OpenClaw-Empathy-Anchor-MindMend-OpenClaw-) | Local-first safety-signal demonstrator: deterministic rules flag predefined signals for human review, with local SQLite alerts and raw-text retention off by default. Technical demo; not clinical software or an emergency service. |
@@ -30,6 +32,7 @@ Michigan MindMend Inc. is a 501(c)(3) nonprofit in rural Michigan building priva
 
 ### Evidence highlights
 
+- **VoiceForge** — [CI on `main`, 8 November 2026](https://github.com/MiMindMendinc/VoiceForge/actions/runs/42552191321): ruff and pytest on Python 3.10–3.13, JavaScript client tests, and pip-audit. Tests use a fake engine; they do not download the speech models.
 - **Annie Local** — [CI baseline, 12 September 2026](https://github.com/MiMindMendinc/annie-local/actions/runs/34663657989): 329 Python tests passed on each of Python 3.11/3.12, plus 31 JavaScript tests. Open items are tracked in [release readiness](https://github.com/MiMindMendinc/annie-local/blob/main/docs/RELEASE_READINESS.md).
 - **lyle-rope-kernel-js** — [CI on `main`, 8 October 2026](https://github.com/MiMindMendinc/lyle-rope-kernel-js/actions/runs/37732478233): green across Ubuntu/Windows × Node 22/24. Benchmarks are one-machine indicative numbers; the package does not implement a KV cache.
 - **DominusUltra** — [CPU CI baseline, 2 October 2026](https://github.com/MiMindMendinc/DominusUltra/actions/runs/36957069771) (CPU/contract only; skipped CUDA cases are not GPU passes) and [gated Tesla T4 evidence, 2 October 2026](https://github.com/MiMindMendinc/DominusUltra/blob/main/docs/evidence/T4_2026-10-02.md). Results are shape-specific, including both wins and losses versus SDPA.
